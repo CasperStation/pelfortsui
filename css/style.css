@@ -9,7 +9,7 @@ body {
   background: black;
 }
 body nav {
-  background: #ffbc0c;
+  background: #0cdbff;
   padding: 2em 2em 0 2em;
 }
 body nav .navbar {
@@ -23,14 +23,16 @@ body nav .navbar .socials a {
   text-decoration: none;
   color: inherit;
 }
-body nav .navbar .socials a i.fa-brands, body nav .navbar .socials a i.fas {
+body nav .navbar .socials a i.fa-brands,
+body nav .navbar .socials a i.fas {
   font-size: 40px;
   transition: 0.3s ease-in-out;
 }
 body nav .navbar .socials a i.fas {
   margin-left: 8px;
 }
-body nav .navbar .socials a i.fa-brands:hover, body nav .navbar .socials a i.fas:hover {
+body nav .navbar .socials a i.fa-brands:hover,
+body nav .navbar .socials a i.fas:hover {
   transition: 0.3s ease-in-out;
   transform: scale(1.2);
 }
@@ -77,7 +79,8 @@ body nav .navbar img:hover {
     padding-right: 1em;
     padding-left: 1em;
   }
-  body nav .navbar .socials a i.fa-brands, body nav .navbar .socials a i.fas {
+  body nav .navbar .socials a i.fa-brands,
+  body nav .navbar .socials a i.fas {
     font-size: 35px;
   }
   body nav .navbar img {
@@ -89,7 +92,8 @@ body nav .navbar img:hover {
     padding-right: 0.8em;
     padding-left: 0.8em;
   }
-  body nav .navbar .socials a i.fa-brands, body nav .navbar .socials a i.fas {
+  body nav .navbar .socials a i.fa-brands,
+  body nav .navbar .socials a i.fas {
     font-size: 30px;
   }
   body nav .navbar img {
@@ -104,7 +108,8 @@ body nav .navbar img:hover {
     padding-right: 0.8em;
     padding-left: 0.8em;
   }
-  body nav .navbar .socials a i.fa-brands, body nav .navbar .socials a i.fas {
+  body nav .navbar .socials a i.fa-brands,
+  body nav .navbar .socials a i.fas {
     font-size: 25px;
   }
   body nav .navbar img {
@@ -115,13 +120,13 @@ body nav .navbar img:hover {
   }
 }
 body .hero {
-  background: #ffbc0c;
+  background: #0cdbff;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 body .hero .title {
-  background: #ffbc0c;
+  background: #0cdbff;
   margin-top: 2em;
   margin-bottom: 1em;
   padding: 1em;
@@ -254,7 +259,7 @@ body .hero .slider::after {
   }
 }
 body .howToBuy {
-  background: #ffbc0c;
+  background: #0cdbff;
   padding: 3em 2em 3em 2em;
   text-align: center;
 }
@@ -264,7 +269,7 @@ body .howToBuy iframe {
   border-radius: 10px;
 }
 body .game {
-  background: #484474;
+  background: #0cdbff;
   height: 100vh;
   width: 100vw;
   text-align: center;
@@ -353,7 +358,7 @@ body .game .container iframe {
   border: none;
 }
 body .pen {
-  background: #ffbc0c;
+  background: #0cdbff;
   padding: 3em 2em 0 2em;
   text-align: center;
 }
@@ -432,7 +437,7 @@ body .pen .container .elements .nonImages button a:hover {
   }
 }
 body .tokenomics {
-  background: #ffbc0c;
+  background: #0cdbff;
   padding: 3em 2em 3em 2em;
   text-align: center;
 }
@@ -484,7 +489,7 @@ body .faq .container {
 body .faq .container .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
-body .faq .container .accordion .accordion-item button[aria-expanded=true] {
+body .faq .container .accordion .accordion-item button[aria-expanded="true"] {
   border-bottom: 1px solid #03b5d2;
 }
 body .faq .container .accordion button {
@@ -500,11 +505,13 @@ body .faq .container .accordion button {
   background: none;
   outline: none;
 }
-body .faq .container .accordion button:hover, body .faq .container .accordion button:focus {
+body .faq .container .accordion button:hover,
+body .faq .container .accordion button:focus {
   cursor: pointer;
   color: #03b5d2;
 }
-body .faq .container .accordion button:hover::after, body .faq .container .accordion button:focus::after {
+body .faq .container .accordion button:hover::after,
+body .faq .container .accordion button:focus::after {
   cursor: pointer;
   color: #03b5d2;
   border: 1px solid #03b5d2;
@@ -542,13 +549,18 @@ body .faq .container .accordion button .icon::after {
   height: 10px;
   background: currentColor;
 }
-body .faq .container .accordion button[aria-expanded=true] {
+body .faq .container .accordion button[aria-expanded="true"] {
   color: #03b5d2;
 }
-body .faq .container .accordion button[aria-expanded=true] .icon::after {
+body .faq .container .accordion button[aria-expanded="true"] .icon::after {
   width: 0;
 }
-body .faq .container .accordion button[aria-expanded=true] + .accordion-content {
+body
+  .faq
+  .container
+  .accordion
+  button[aria-expanded="true"]
+  + .accordion-content {
   opacity: 1;
   max-height: 100em;
   transition: all 200ms linear;
